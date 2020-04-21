@@ -1,9 +1,6 @@
-/** Textual markov chain generator */
 
 
 class MarkovMachine {
-
-  /** build markov machine; read in text.*/
 
     constructor(text) {
           let words = text.split(/[ \r\n]+/);
@@ -55,5 +52,3 @@ module.exports = {
     MarkovMachine
 }
 
-// const mm = new MarkovMachine("Test this text before the wind blows")
-// console.log(mm.makeText())
